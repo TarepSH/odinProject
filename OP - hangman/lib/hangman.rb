@@ -12,6 +12,7 @@ class Game
 
 		list = open_file("5desk.txt")
 		@word = random_word(list)
+		#puts @word
 		convert_word(@word)
 		play
 	end
@@ -83,6 +84,11 @@ class Game
 	def evaluate_guess(letter)
 		@clue.each_with_index do |x, i|
 			@word_display_array[i] = x if x == letter
+		end
+
+		if @word_display_array.join("").eql?(@word)
+			puts "\nYou won!"
+			exit
 		end
 	end
 

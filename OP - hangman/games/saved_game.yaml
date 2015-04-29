@@ -1,8 +1,8 @@
 --- !ruby/object:Game
 guesses: 9
 list:
-- a
-- b
+- e
+- i
 word_list:
 - |
   Aachen
@@ -103576,28 +103576,27 @@ word_list:
   zygotic
 - |
   zymurgy
-word: immaturity
+word: helicopter
 clue:
+- h
+- e
+- l
 - i
-- m
-- m
-- a
+- c
+- o
+- p
 - t
-- u
+- e
 - r
-- i
-- t
-- y
 word_display_array:
 - _
+- e
 - _
-- _
-- a
-- _
-- _
+- i
 - _
 - _
 - _
 - _
-word_display: _ _ _ _ _ _ _ _ _ _
+- e
+- _
 filename: games/saved_game.yaml
